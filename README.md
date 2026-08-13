@@ -13,11 +13,12 @@ This project is designed as a portfolio application to demonstrate practical Rea
 Recommended structure:
 
 ```text
-docs/
-└── screenshots/
-    ├── login.png
-    ├── dashboard.png
-    └── users.png
+react-admin-dashboard/
+└── docs/
+    └── screenshots/
+        ├── login.png
+        ├── dashboard.png
+        └── users.png
 
 After adding the images, uncomment the following:
 
