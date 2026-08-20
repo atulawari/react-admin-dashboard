@@ -1,0 +1,1 @@
+export default function ConfirmDialog({message,onConfirm,onCancel}){return <div className='alert alert-warning'>{message}<button className='btn btn-danger btn-sm ms-3' onClick={onConfirm}>Confirm</button><button className='btn btn-secondary btn-sm ms-2' onClick={onCancel}>Cancel</button></div>}

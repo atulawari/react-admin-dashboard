@@ -1,29 +1,72 @@
 # React Admin Dashboard
 
-A responsive React admin dashboard demonstrating protected navigation, Redux Toolkit state management, Material UI components, user management, and a clean dashboard layout.
+Professional full-stack React Admin Dashboard starter.
 
-## Features
-- Admin login flow
+## Included
+- React + Vite
+- React Router
+- Redux Toolkit
+- Axios
+- Material UI dependencies
+- Bootstrap
+- React Hook Form
+- Yup
+- Recharts
+- JWT authentication
 - Protected routes
-- Dashboard metrics
-- Redux Toolkit state management
-- User list
-- Add user dialog
-- Delete user
-- Material UI
-- Responsive layout
+- User CRUD
+- Search
+- Node.js + Express
+- MongoDB + Mongoose
+- Validation middleware
+- Error middleware
 
-## Tech Stack
-React.js 18, Redux Toolkit, React Redux, React Router, Material UI, JavaScript ES6+, Vite
+## Project Structure
 
-## Run
+client/
+- components/
+- pages/
+- routes/
+- redux/
+- services/
+- hooks/
+- utils/
+
+server/
+- config/
+- controllers/
+- middleware/
+- models/
+- routes/
+- utils/
+
+## Install
+
+Frontend:
 ```bash
+cd client
 npm install
 npm run dev
 ```
 
-## Developer
-ATUL AWARI — React Developer | Senior UI/UX Developer
-GitHub: https://github.com/atulawari
-LinkedIn: https://www.linkedin.com/in/atul-awari-67a42b68
-Behance: https://www.behance.net/atulawari
+Backend:
+```bash
+cd server
+npm install
+npm run dev
+```
+
+Copy `server/.env.example` to `server/.env`.
+
+Default admin:
+admin@example.com
+Admin@123
+
+## API
+POST /api/auth/login
+GET /api/users
+GET /api/users/:id
+POST /api/users
+PUT /api/users/:id
+DELETE /api/users/:id
+GET /api/health
